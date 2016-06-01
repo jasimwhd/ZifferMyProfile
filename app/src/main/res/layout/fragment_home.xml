@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasimwhd.myprofile.HomeFragment"
+    android:padding="@dimen/design_fab_image_size"
+    android:paddingLeft="@dimen/abc_dialog_list_padding_vertical_material">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name:  Jasim Waheed"
+        android:id="@+id/textView"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity = "center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: I am a fun loving guy, studying Master&apos;s course at RWTH Aachen University."
+        android:id="@+id/textView2"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height_material"
+        style="@style/Base.TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="26dp"
+        android:text="German Level : B1.1"
+        android:id="@+id/textView3"
+        android:layout_gravity="left|bottom"
+        android:fontFamily="@string/abc_capital_off" />
+
+</FrameLayout>
